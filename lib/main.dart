@@ -6,6 +6,8 @@ void main() {
     title: 'Navigation Basics',
 
     home: FirstRoute(),
+    debugShowCheckedModeBanner: false,
+
   ));
 }
 
