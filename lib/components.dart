@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:telephones/pageInformation.dart';
 
 class ListItems extends StatelessWidget {
   const ListItems({super.key, required this.nums});
@@ -40,22 +41,6 @@ class ListItems extends StatelessWidget {
             ),
           ],
         ),
-      ),
-    );
-  }
-}
-
-class InfoPage extends StatelessWidget {
-  const InfoPage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Information'),
-      ),
-      body: const Center(
-        child: Text('This is the information page.'),
       ),
     );
   }
