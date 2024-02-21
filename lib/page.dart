@@ -3,7 +3,7 @@ import 'package:telephones/components.dart';
 
 
 final List<String> nums = [
-  '1','2','3','4','5','6','7','8','9','10','11','12','13','14','15'
+  '1','2','1','2','1','2',
 ];
 
 class HomePage extends StatelessWidget {
@@ -11,7 +11,10 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Scaffold(appBar: AppBar(
+        title: const Text('Information'),
+      ),
+
         body: Center(
       child: ListView.builder(
         itemCount: nums.length,
