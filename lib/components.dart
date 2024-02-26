@@ -26,7 +26,7 @@ class ListItems extends StatelessWidget {
           color: Colors.blue,
           borderRadius: BorderRadius.circular(10),
         ),
-        child: Column(
+        child: Row(
           children: [
             Container(
               width: 200,
@@ -40,10 +40,13 @@ class ListItems extends StatelessWidget {
                 ),
               ),
             ),
-            const SizedBox(height: 10), // Добавим немного пространства между изображением и текстом
+            const SizedBox(height: 10), 
             const Text(
-              'dfdhgfjdfhgjfh',
-              textDirection: TextDirection.ltr,
+              'Модель',
+              
+              style: TextStyle(color: Color.fromARGB(255, 0, 0, 0),   // зеленый цвет текста
+            fontSize: 26,  
+              ) 
             ),
           ],
         ),

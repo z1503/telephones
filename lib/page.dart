@@ -3,7 +3,7 @@ import 'package:telephones/components.dart';
 
 
 final List<String> nums = [
-  '1','2','1','2','1','2',
+  '1','2','3','4',
 ];
 
 class HomePage extends StatelessWidget {
